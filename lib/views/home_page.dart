@@ -60,6 +60,11 @@ class _MyHomePageState extends State<MyHomePage> {
               // wireframe for each widget.
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
+                Image.asset(  
+                  'assets/icon/app_icon.png',
+                  width: 100,
+                  height: 100,
+                ),
                 const Text('You have pushed the button this many times:'),
                 Text(
                   value.angka.toString(),
